@@ -1,0 +1,104 @@
+* { box-sizing: border-box;}
+@media (min-width:992px) {
+
+}
+div {
+   background-color: #AEF3E7;
+   width: 290px;
+
+}
+
+p {
+background-color: #AEF3E7  ;
+   margin: 3px;
+   border: 2px black;
+   padding: 12px;
+   text-align: justify;
+
+}
+
+div#chicken {
+   position: relative;
+   font-size: 125%;
+   border-width: 1px;
+   border-style: solid;
+   border-color: black;
+   margin: 10px;
+   float: left;
+}
+
+div#beef { 
+   position: relative;
+   font-size: 125%;
+   border-width: 1px;
+   border-style: solid;
+   border-color: black;
+   margin: 10px;
+   float:left;
+} 
+div#sushi { 
+   position: relative;
+   font-size: 125%;
+   border-width: 1px;
+   border-style: solid;
+   border-color: black;
+   margin: 10px;
+   float: left;
+}
+
+p#p1 {
+   font-size: 75%;
+   width: 270px;
+}
+
+p#p2 {
+   font-size: 75%;
+   width: 270px;
+}
+
+p#p3 {
+   font-size: 75%;
+   width: 270px;
+}
+div#menu { 
+   text-align: center;
+   background-color: antiquewhite;
+   width: auto;
+   font-size: 175%;
+}
+div.Section1 { 
+   position: relative;
+  border-width: 1px;
+  border-style: solid;
+  width: max-content;
+  border-color: black;
+  margin: 1px;
+  left: 215px;
+  background-color: darkgoldenrod;
+}
+div.Section2 { 
+   position: relative;
+   border-width: 1px;
+   border-style: solid;
+   width:max-content;
+   border-color: black;
+   margin: 1px;
+   left: 244px;
+   background-color: darkgoldenrod;
+ }
+ div.Section3 { 
+   position: relative;
+   border-width: 1px;
+   border-style: solid;
+   width: max-content;
+   border-color: black;
+   margin: 0px;
+   left: 238px;
+   background-color: darkgoldenrod;
+ }
+ div.paragraph{
+   width: 270px;
+ }
+
+
+

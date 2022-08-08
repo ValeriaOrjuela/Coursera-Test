@@ -69,6 +69,6 @@ span#Sushi {
 /**** Mobile view ****/
 @media (max-width: 767px) {
 div {
-    width: auto;
+    width: 50%;
 }
 }

@@ -70,5 +70,6 @@ span#Sushi {
 @media (max-width: 767px) {
 div {
     width: 90%;
+    float: right;
 }
 }

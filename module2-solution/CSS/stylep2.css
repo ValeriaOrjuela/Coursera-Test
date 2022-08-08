@@ -1,0 +1,74 @@
+/******* Basic style******/
+*{box-sizing: border-box;}
+body { font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+}
+h1 { 
+    text-align: center;
+    font-size: 175%;
+}
+div{
+    position: relative;
+    border-width: 2px;
+    border-style: double;
+    padding: 2px;
+    margin: 20px;
+    width: 350px;
+    float: left;
+    background-color: aliceblue;
+
+}
+span{
+    font-size: 125%;
+    font-weight: bold;
+    border-width: 1px;
+    border-style: solid;
+    position: relative;
+    top: 0px;
+
+   
+}
+p{
+    padding:9px;
+}
+span#chicken{
+    background-color: #B98389;
+ float: right;
+
+}
+
+span#Beef {
+background-color: #BFD3C1;
+float:right;
+}
+span#Sushi {
+    background-color:#D6CE93;
+    float: right;
+}
+/**** Desktop view****/
+@media(min-width: 992px ){
+    div{
+        width:28%;
+        float: left;
+    }
+}
+/**** tablet view****/
+@media (min-width:768px) and (max-width:991px)  {
+    div#p1  {
+        width: 40%;
+        float: left;
+    }
+    div#p2  {
+        width: 40%;
+        float: left;
+    }
+    div#p3 {
+        width:85%;
+    }
+}
+/**** Mobile view ****/
+@media (max-width: 767px) {
+div {
+    width: auto;
+}
+}
